@@ -44,7 +44,7 @@ const LoginForm = ({ logoClassMain }) => {
                     Remember password
                   </Label>
                 </div>
-                <Link className='link' to={`${process.env.PUBLIC_URL}/pages/authentication/forget-pwd`}>
+                <Link className='link' to={`/pages/authentication/forget-pwd`}>
                   Forgot password?
                 </Link>
               </FormGroup>
@@ -73,7 +73,7 @@ const LoginForm = ({ logoClassMain }) => {
 
               <P attrPara={{ className: 'text-center mb-0 ' }}>
                 Don't have account?
-                <Link className='ms-2' to={`${process.env.PUBLIC_URL}/pages/authentication/register-simple`}>
+                <Link className='ms-2' to={`/pages/authentication/register-simple`}>
                   Create Account
                 </Link>
               </P>

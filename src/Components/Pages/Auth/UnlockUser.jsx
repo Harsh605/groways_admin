@@ -46,7 +46,7 @@ const UnlockUser = ({ logoClassMain }) => {
                       </FormGroup>
                       <P attrPara={{ className: 'mb-0' }}>
                         Already have an account?
-                        <Link className='ms-2' to={`${process.env.PUBLIC_URL}/pages/authentication/login-simple`}>
+                        <Link className='ms-2' to={`/pages/authentication/login-simple`}>
                           Sign in
                         </Link>
                       </P>

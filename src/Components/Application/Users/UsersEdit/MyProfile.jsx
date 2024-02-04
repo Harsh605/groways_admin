@@ -9,7 +9,7 @@ import CustomizerContext from '../../../../_helper/Customizer';
 const MyProfileEdit = ({imagePath , nameOfUser}) => {
   // dotenv.config();
   // const imageURL = `${process.env.IMAGE_URL}/${imagePath}`;
-  const imageURL = `http://localhost:5000/images/${imagePath}`
+  const imageURL = `http://localhost:5000/images/${imagePath}`    // to be changed later
   // const image 
   console.log(`image url is ${imageURL}`)
   const { layoutURL } = useContext(CustomizerContext);
@@ -34,7 +34,7 @@ const MyProfileEdit = ({imagePath , nameOfUser}) => {
                 <div className='media'>
                   <Image attrImage={{ className: 'img-80 m-0 rounded-circle', alt: '', src: imageURL }} />
                   <div className='media-body'>
-                    <Link to={`${process.env.PUBLIC_URL}/app/users/userProfile/${layoutURL}`}>
+                    <Link to={`/app/users/userProfile/${layoutURL}`}>
                       <H5 attrH5={{ className: 'mb-1' }}>{nameOfUser}</H5>
                     </Link>
                     <P> <span style={{color:'#BEBFC2'}} >

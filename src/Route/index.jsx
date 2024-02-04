@@ -33,8 +33,8 @@ const Routers = () => {
           <Route path={"/"} element={<PrivateRoute />}>
             {login || authenticated ? (
               <>
-                <Route exact path={`${process.env.PUBLIC_URL}`} element={<Navigate to={`${process.env.PUBLIC_URL}/dashboard/default/${layout}`} />} />
-                <Route exact path={`/`} element={<Navigate to={`${process.env.PUBLIC_URL}/dashboard/default/${layout}`} />} />
+                <Route exact path={``} element={<Navigate to={`/dashboard/default/${layout}`} />} />
+                <Route exact path={`/`} element={<Navigate to={`/dashboard/default/${layout}`} />} />
               </>
             ) : (
               ""
@@ -42,7 +42,7 @@ const Routers = () => {
             <Route path={`/*`} element={<LayoutRoutes />} />
           </Route>
 
-          <Route exact path={`${process.env.PUBLIC_URL}/login`} element={<Signin />} />
+          <Route exact path={`/login`} element={<Signin />} />
           {authRoutes.map(({ path, Component }, i) => (
             <Route path={path} element={Component} key={i} />
           ))}
