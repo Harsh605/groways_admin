@@ -27,7 +27,7 @@ const MainCard = () => {
                     </span>
                   </H6>
                   <P>
-                    Cuba - United States
+                    Groways - India
                     <span>
                       <i className='fa fa-star font-warning'></i>
                       <i className='fa fa-star font-warning'></i>

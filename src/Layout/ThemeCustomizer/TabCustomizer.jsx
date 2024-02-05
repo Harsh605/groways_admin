@@ -26,12 +26,12 @@ const TabCustomizer = ({ selected, callbackNavTab }) => {
                     <ConfigurationClass modal={modal} toggle={toggle} />
                 </div>
                 <div className="customizer-body custom-scrollbar tab-content">
-                    <TabPane tabId="check-layout">
+                    {/* <TabPane tabId="check-layout">
                         <CheckLayout />
-                    </TabPane>
-                    <TabPane tabId="sidebar-type">
+                    </TabPane> */}
+                    {/* <TabPane tabId="sidebar-type">
                         <SidebarCusmizer />
-                    </TabPane>
+                    </TabPane> */}
                 </div>
             </TabContent>
         </Fragment>
