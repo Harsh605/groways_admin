@@ -23,7 +23,7 @@ import Error500 from '../Components/Pages/ErrorPages/ErrorPage500';
 import Error503 from '../Components/Pages/ErrorPages/ErrorPage503';
 
 export const authRoutes = [
-  // { path: `/login`, Component: <Logins /> },
+  { path: `/login`, Component: <Logins /> },
   { path: `/pages/authentication/login-simple/:layout?`, Component: <LoginForm /> },
   { path: `/pages/authentication/login-img/:layout?`, Component: <LoginOne /> },
   { path: `/pages/authentication/login-bg-img/:layout`, Component: <LoginTwo /> },
