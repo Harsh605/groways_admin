@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://admin.groways.io/static/css/main.f5ff5f37.css",
-    "main.js": "https://admin.groways.io/static/js/main.77f93f2f.js",
+    "main.js": "https://admin.groways.io/static/js/main.8eeed3ba.js",
     "static/js/498.ab568cb3.chunk.js": "https://admin.groways.io/static/js/498.ab568cb3.chunk.js",
     "static/js/703.50daf76b.chunk.js": "https://admin.groways.io/static/js/703.50daf76b.chunk.js",
     "static/js/198.aa5a14aa.chunk.js": "https://admin.groways.io/static/js/198.aa5a14aa.chunk.js",
@@ -433,7 +433,7 @@
     "static/media/hour.svg": "https://admin.groways.io/static/media/hour.6548bc0623d611d7572e.svg",
     "static/media/min.svg": "https://admin.groways.io/static/media/min.adcdc23489f6d03ca8b6.svg",
     "main.f5ff5f37.css.map": "https://admin.groways.io/static/css/main.f5ff5f37.css.map",
-    "main.77f93f2f.js.map": "https://admin.groways.io/static/js/main.77f93f2f.js.map",
+    "main.8eeed3ba.js.map": "https://admin.groways.io/static/js/main.8eeed3ba.js.map",
     "498.ab568cb3.chunk.js.map": "https://admin.groways.io/static/js/498.ab568cb3.chunk.js.map",
     "703.50daf76b.chunk.js.map": "https://admin.groways.io/static/js/703.50daf76b.chunk.js.map",
     "198.aa5a14aa.chunk.js.map": "https://admin.groways.io/static/js/198.aa5a14aa.chunk.js.map",
@@ -441,6 +441,6 @@
   },
   "entrypoints": [
     "static/css/main.f5ff5f37.css",
-    "static/js/main.77f93f2f.js"
+    "static/js/main.8eeed3ba.js"
   ]
 }

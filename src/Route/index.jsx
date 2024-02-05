@@ -1,6 +1,6 @@
 import React from "react";
 import { Suspense, useEffect, useState } from "react";
-import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Loader from "../Layout/Loader";
 import { authRoutes } from "./AuthRoutes";
 import LayoutRoutes from "../Route/LayoutRoutes";
@@ -17,6 +17,8 @@ const Routers = () => {
   const defaultLayoutObj = classes.find((item) => Object.values(item).pop(1) === "compact-wrapper");
   const layout = localStorage.getItem("layout") || Object.keys(defaultLayoutObj).pop();
 
+
+  
   useEffect(() => {
     let abortController = new AbortController();
     setAuthenticated(JSON.parse(localStorage.getItem("authenticated")));
@@ -28,14 +30,14 @@ const Routers = () => {
   }, []);
 
   return (
-    <HashRouter basename={"/"}>
+    <BrowserRouter basename={"/"}>
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path={"/"} element={<PrivateRoute />}>
             {login || authenticated ? (
               <>
-                <Route exact path={`${process.env.PUBLIC_URL}`} element={<Navigate to={`${process.env.PUBLIC_URL}/dashboard/default/${layout}`} />} />
-                <Route exact path={`/`} element={<Navigate to={`${process.env.PUBLIC_URL}/dashboard/default/${layout}`} />} />
+                <Route exact path={``} element={<Navigate to={`/dashboard/default/${layout}`} />} />
+                <Route exact path={`/`} element={<Navigate to={`/dashboard/default/${layout}`} />} />
               </>
             ) : (
               ""
@@ -43,13 +45,13 @@ const Routers = () => {
             <Route path={`/*`} element={<LayoutRoutes />} />
           </Route>
 
-          <Route exact path={`${process.env.PUBLIC_URL}/login`} element={<Signin />} />
+          <Route exact path={`/login`} element={<Signin />} />
           {authRoutes.map(({ path, Component }, i) => (
             <Route path={path} element={Component} key={i} />
           ))}
         </Routes>
       </Suspense>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 

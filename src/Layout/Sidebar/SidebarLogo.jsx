@@ -27,7 +27,8 @@ const SidebarLogo = () => {
         </Link>
       ) : (
         <Link to={`/dashboard/default/${layoutURL}`}>
-          <Image attrImage={{ className: 'img-fluid d-inline', src: `${require('../../assets/images/logo/logo_dark.png')}`, alt: '' }} />
+          <p style={{fontSize : "20px" , marginTop : "20px"}}>Groways</p>
+          {/* <Image attrImage={{ className: 'img-fluid d-inline', src: `${require('../../assets/images/logo/logo_dark.png')}`, alt: '' }} /> */}
         </Link>
       )}
       <div className='back-btn' onClick={() => openCloseSidebar()}>
