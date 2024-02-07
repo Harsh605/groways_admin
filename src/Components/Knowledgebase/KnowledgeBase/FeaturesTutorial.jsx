@@ -13,7 +13,7 @@ const FeaturesTutorial = () => {
   const { learningData } = useContext(LearningContext);
   const history = useNavigate();
   const clickApply = () => {
-    history(`/app/knowledgebase-detail/${layoutURL}`);
+    history(`${process.env.PUBLIC_URL}/app/knowledgebase-detail/${layoutURL}`);
   };
   var images = require.context('../../../assets/images', true);
   const dynamicImage = (image) => {
@@ -42,7 +42,7 @@ const FeaturesTutorial = () => {
                   </div>
                   <CardBody>
                     <H6>
-                      <NavLink to={`/app/knowledgebase-detail/${layoutURL}`}>{item.title}</NavLink>
+                      <NavLink to={`${process.env.PUBLIC_URL}/app/knowledgebase-detail/${layoutURL}`}>{item.title}</NavLink>
                     </H6>
                     <P>{item.short_description}</P>
                   </CardBody>

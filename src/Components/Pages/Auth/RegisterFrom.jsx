@@ -79,7 +79,7 @@ const handleSubmit = async (e)=>{
     console.log(error)
     alert("Please login!")
   }
-  // navigate(`/dashboard/default/`);
+  // navigate(`${process.env.PUBLIC_URL}/dashboard/default/`);
 
 
 }
@@ -290,7 +290,7 @@ const handleSubmit = async (e)=>{
                 Already have an account?
                 <Link
                   className="ms-2"
-                  to={`/login`}
+                  to={`${process.env.PUBLIC_URL}/login`}
                 >
                   Sign in
                 </Link>

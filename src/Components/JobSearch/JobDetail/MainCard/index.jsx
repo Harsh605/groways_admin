@@ -21,13 +21,13 @@ const MainCard = () => {
                   <H6 attrH6={{ className: 'f-w-600' }}>
                     <a href='#javascript'>Product Designer (UI/UX Designer)</a>
                     <span className='pull-right'>
-                      <Link to={`/app/jobsearch/jobapply/${layoutURL}`}>
+                      <Link to={`${process.env.PUBLIC_URL}/app/jobsearch/jobapply/${layoutURL}`}>
                         <Btn attrBtn={{ className: 'btn btn-sm job-apply-btn', color: 'primary' }}>Apply for this job</Btn>
                       </Link>
                     </span>
                   </H6>
                   <P>
-                    Groways - India
+                    Cuba - United States
                     <span>
                       <i className='fa fa-star font-warning'></i>
                       <i className='fa fa-star font-warning'></i>

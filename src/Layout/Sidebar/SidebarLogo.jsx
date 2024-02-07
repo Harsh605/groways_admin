@@ -19,15 +19,16 @@ const SidebarLogo = () => {
   return (
     <div className='logo-wrapper'>
       {layout1 !== 'compact-wrapper dark-sidebar' && layout1 !== 'compact-wrapper color-sidebar' && mixLayout ? (
-        <Link to={`/dashboard/default/${layoutURL}`}>
-          <div style={{display : "flex" , alignItems : "center"}}>
-          {/* <Image attrImage={{ className: 'img-fluid d-inline', src: logo, alt: '' , style : {height : "90px" , width : "80px"}}} /> */}
-            <p style={{fontSize : "20px" , marginTop : "20px"}}>Groways</p>
-            </div>
+        <Link to={`${process.env.PUBLIC_URL}/dashboard/default/${layoutURL}`}>
+           <p style={{ fontSize: "22px", lineHeight: "0", color: "black",paddingTop:"3px",marginTop:"8px" }}>
+            Groways
+          </p>
         </Link>
       ) : (
-        <Link to={`/dashboard/default/${layoutURL}`}>
-          <p style={{fontSize : "20px" , marginTop : "20px"}}>Groways</p>
+        <Link to={`${process.env.PUBLIC_URL}/dashboard/default/${layoutURL}`}>
+          <p style={{ fontSize: "22px", lineHeight: "0", color: "white",paddingTop:"3px",marginTop:"8px" }}>
+            Groways
+          </p>
           {/* <Image attrImage={{ className: 'img-fluid d-inline', src: `${require('../../assets/images/logo/logo_dark.png')}`, alt: '' }} /> */}
         </Link>
       )}

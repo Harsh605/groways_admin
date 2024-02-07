@@ -11,7 +11,7 @@ const BoxList = () => {
 
   const history = useNavigate();
   const clickApply = () => {
-    history(`/app/learning/learningdetail/${layoutURL}`);
+    history(`${process.env.PUBLIC_URL}/app/learning/learningdetail/${layoutURL}`);
   };
 
   return (

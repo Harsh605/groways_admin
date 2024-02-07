@@ -84,35 +84,14 @@ const Dashboard = () => {
   //   },
   //   {
   //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
+  //     newuser: '+5 BUSD in x4',
   //     UserId: '869255',
   //     jioningtiming: '7 minutes',
   //     className: 'transaction'
   //   },
   //   {
   //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
-  //     UserId: '869255',
-  //     jioningtiming: '7 minutes',
-  //     className: 'transaction'
-  //   },
-  //   {
-  //     usericon: (<PersonAddAltRoundedIcon sx={{ fontSize: "15px" }} />),
-  //     newuser: 'New User Join',
-  //     UserId: '869255',
-  //     jioningtiming: '7 minutes',
-  //     className: 'NewUser'
-  //   },
-  //   {
-  //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
-  //     UserId: '869255',
-  //     jioningtiming: '7 minutes',
-  //     className: 'transaction'
-  //   },
-  //   {
-  //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
+  //     newuser: '+5 BUSD in x4',
   //     UserId: '869255',
   //     jioningtiming: '7 minutes',
   //     className: 'transaction'
@@ -126,35 +105,14 @@ const Dashboard = () => {
   //   },
   //   {
   //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
+  //     newuser: '+5 BUSD in x4',
   //     UserId: '869255',
   //     jioningtiming: '7 minutes',
   //     className: 'transaction'
   //   },
   //   {
   //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
-  //     UserId: '869255',
-  //     jioningtiming: '7 minutes',
-  //     className: 'transaction'
-  //   },
-  //   {
-  //     usericon: (<PersonAddAltRoundedIcon sx={{ fontSize: "15px" }} />),
-  //     newuser: 'New User Join',
-  //     UserId: '869255',
-  //     jioningtiming: '7 minutes',
-  //     className: 'NewUser'
-  //   },
-  //   {
-  //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
-  //     UserId: '869255',
-  //     jioningtiming: '7 minutes',
-  //     className: 'transaction'
-  //   },
-  //   {
-  //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
+  //     newuser: '+5 BUSD in x4',
   //     UserId: '869255',
   //     jioningtiming: '7 minutes',
   //     className: 'transaction'
@@ -168,14 +126,14 @@ const Dashboard = () => {
   //   },
   //   {
   //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
+  //     newuser: '+5 BUSD in x4',
   //     UserId: '869255',
   //     jioningtiming: '7 minutes',
   //     className: 'transaction'
   //   },
   //   {
   //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
+  //     newuser: '+5 BUSD in x4',
   //     UserId: '869255',
   //     jioningtiming: '7 minutes',
   //     className: 'transaction'
@@ -189,14 +147,56 @@ const Dashboard = () => {
   //   },
   //   {
   //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
+  //     newuser: '+5 BUSD in x4',
   //     UserId: '869255',
   //     jioningtiming: '7 minutes',
   //     className: 'transaction'
   //   },
   //   {
   //     usericon: (<FaWallet style={{ color: 'green' }} />),
-  //     newuser: '+5 USDT in x4',
+  //     newuser: '+5 BUSD in x4',
+  //     UserId: '869255',
+  //     jioningtiming: '7 minutes',
+  //     className: 'transaction'
+  //   },
+  //   {
+  //     usericon: (<PersonAddAltRoundedIcon sx={{ fontSize: "15px" }} />),
+  //     newuser: 'New User Join',
+  //     UserId: '869255',
+  //     jioningtiming: '7 minutes',
+  //     className: 'NewUser'
+  //   },
+  //   {
+  //     usericon: (<FaWallet style={{ color: 'green' }} />),
+  //     newuser: '+5 BUSD in x4',
+  //     UserId: '869255',
+  //     jioningtiming: '7 minutes',
+  //     className: 'transaction'
+  //   },
+  //   {
+  //     usericon: (<FaWallet style={{ color: 'green' }} />),
+  //     newuser: '+5 BUSD in x4',
+  //     UserId: '869255',
+  //     jioningtiming: '7 minutes',
+  //     className: 'transaction'
+  //   },
+  //   {
+  //     usericon: (<PersonAddAltRoundedIcon sx={{ fontSize: "15px" }} />),
+  //     newuser: 'New User Join',
+  //     UserId: '869255',
+  //     jioningtiming: '7 minutes',
+  //     className: 'NewUser'
+  //   },
+  //   {
+  //     usericon: (<FaWallet style={{ color: 'green' }} />),
+  //     newuser: '+5 BUSD in x4',
+  //     UserId: '869255',
+  //     jioningtiming: '7 minutes',
+  //     className: 'transaction'
+  //   },
+  //   {
+  //     usericon: (<FaWallet style={{ color: 'green' }} />),
+  //     newuser: '+5 BUSD in x4',
   //     UserId: '869255',
   //     jioningtiming: '7 minutes',
   //     className: 'transaction'
@@ -640,7 +640,7 @@ const fetchAllIncome = async()=>{
                 <div className="platform-right-box-3">
                   <div>
                     <span className="right-box-3-heading-main">
-                      Groways USDT Contracts
+                      Groways BUSD Contracts
                     </span>
                   </div>
                   {boxdata3.map((data1, index) => {
@@ -682,7 +682,7 @@ const fetchAllIncome = async()=>{
 
                   {/* <div>
                     <span className="right-box-1-heading">
-                      Turnover, USDT
+                      Turnover, BUSD
                     </span>
                   </div> */}
 

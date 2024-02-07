@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "https://admin.groways.io/static/css/main.f5ff5f37.css",
-    "main.js": "https://admin.groways.io/static/js/main.8eeed3ba.js",
-    "static/js/498.ab568cb3.chunk.js": "https://admin.groways.io/static/js/498.ab568cb3.chunk.js",
-    "static/js/703.50daf76b.chunk.js": "https://admin.groways.io/static/js/703.50daf76b.chunk.js",
-    "static/js/198.aa5a14aa.chunk.js": "https://admin.groways.io/static/js/198.aa5a14aa.chunk.js",
-    "static/js/496.7e3b653b.chunk.js": "https://admin.groways.io/static/js/496.7e3b653b.chunk.js",
+    "main.js": "https://admin.groways.io/static/js/main.8d64aa9f.js",
+    "static/js/498.c500c4be.chunk.js": "https://admin.groways.io/static/js/498.c500c4be.chunk.js",
+    "static/js/703.cdcef34d.chunk.js": "https://admin.groways.io/static/js/703.cdcef34d.chunk.js",
+    "static/js/198.92193780.chunk.js": "https://admin.groways.io/static/js/198.92193780.chunk.js",
+    "static/js/496.651c6250.chunk.js": "https://admin.groways.io/static/js/496.651c6250.chunk.js",
     "static/media/2.svg": "https://admin.groways.io/static/media/2.ab5388284836cc68cf9b.svg",
     "static/media/icofont.svg?v=1.0.0-beta": "https://admin.groways.io/static/media/icofont.9999a483fca7c18fdec0.svg",
     "static/media/3.jpg": "https://admin.groways.io/static/media/3.f85aeff7a586236baff2.jpg",
@@ -252,9 +252,9 @@
     "static/media/sk.svg": "https://admin.groways.io/static/media/sk.7195e1b336bbc912e093.svg",
     "static/media/mn.svg": "https://admin.groways.io/static/media/mn.b9b95f4290e2f006ae1d.svg",
     "static/media/et.svg": "https://admin.groways.io/static/media/et.54c2b1edd991142e4a2b.svg",
+    "index.html": "https://admin.groways.io/index.html",
     "static/media/29.svg": "https://admin.groways.io/static/media/29.f3a3d0677206615afd3b.svg",
     "static/media/my.svg": "https://admin.groways.io/static/media/my.6175d66e94339d3751c5.svg",
-    "index.html": "https://admin.groways.io/index.html",
     "static/media/13.svg": "https://admin.groways.io/static/media/13.00e010622757f3459ab4.svg",
     "static/media/uz.svg": "https://admin.groways.io/static/media/uz.9aff5e7e17785b5179ef.svg",
     "static/media/ke.svg": "https://admin.groways.io/static/media/ke.edc18ea92e0bd26e07f9.svg",
@@ -433,14 +433,14 @@
     "static/media/hour.svg": "https://admin.groways.io/static/media/hour.6548bc0623d611d7572e.svg",
     "static/media/min.svg": "https://admin.groways.io/static/media/min.adcdc23489f6d03ca8b6.svg",
     "main.f5ff5f37.css.map": "https://admin.groways.io/static/css/main.f5ff5f37.css.map",
-    "main.8eeed3ba.js.map": "https://admin.groways.io/static/js/main.8eeed3ba.js.map",
-    "498.ab568cb3.chunk.js.map": "https://admin.groways.io/static/js/498.ab568cb3.chunk.js.map",
-    "703.50daf76b.chunk.js.map": "https://admin.groways.io/static/js/703.50daf76b.chunk.js.map",
-    "198.aa5a14aa.chunk.js.map": "https://admin.groways.io/static/js/198.aa5a14aa.chunk.js.map",
-    "496.7e3b653b.chunk.js.map": "https://admin.groways.io/static/js/496.7e3b653b.chunk.js.map"
+    "main.8d64aa9f.js.map": "https://admin.groways.io/static/js/main.8d64aa9f.js.map",
+    "498.c500c4be.chunk.js.map": "https://admin.groways.io/static/js/498.c500c4be.chunk.js.map",
+    "703.cdcef34d.chunk.js.map": "https://admin.groways.io/static/js/703.cdcef34d.chunk.js.map",
+    "198.92193780.chunk.js.map": "https://admin.groways.io/static/js/198.92193780.chunk.js.map",
+    "496.651c6250.chunk.js.map": "https://admin.groways.io/static/js/496.651c6250.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5ff5f37.css",
-    "static/js/main.8eeed3ba.js"
+    "static/js/main.8d64aa9f.js"
   ]
 }

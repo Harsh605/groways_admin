@@ -43,7 +43,7 @@ const Signin = ({ selected }) => {
         localStorage.setItem("userID" , response.userId);
         localStorage.setItem("Name", response.name);
         setName(response.name);
-        history(`/dashboard/default/${layoutURL}`);
+        history(`${process.env.PUBLIC_URL}/dashboard/default/${layoutURL}`);
         toast.success("Successfully logged in!..");
       }else{
         toast.error("Invalid Username or password!");
@@ -58,7 +58,7 @@ const Signin = ({ selected }) => {
   // //     localStorage.setItem("authToken" , response.token);
   // // localStorage.setItem("address" , response.address);
   // // localStorage.setItem("userID" , response.userId);
-  //     history(`/dashboard/default/${layoutURL}`);
+  //     history(`${process.env.PUBLIC_URL}/dashboard/default/${layoutURL}`);
   //     toast.success("Successfully logged in!..");
 
   //   } else {
@@ -113,7 +113,7 @@ const Signin = ({ selected }) => {
                       </Label>
                     </div>
 
-                    <Link className='link' to={`/pages/authentication/forget-pwd`}>
+                    <Link className='link' to={`${process.env.PUBLIC_URL}/pages/authentication/forget-pwd`}>
                       {ForgotPassword}
                     </Link>
                     <Btn attrBtn={{ color: "primary", className: "d-block w-100 mt-2", onClick: (e) => loginAuth(e) }}>{SignIn}</Btn>

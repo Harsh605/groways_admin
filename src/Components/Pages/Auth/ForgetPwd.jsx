@@ -85,7 +85,7 @@ const ForgetPwd = ({ logoClassMain }) => {
                         Already have an password?
                         <Link
                   className="ms-2"
-                  to={`/login`}
+                  to={`${process.env.PUBLIC_URL}/login`}
                 >
                   Sign in
                 </Link>
